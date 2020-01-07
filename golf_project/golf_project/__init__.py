@@ -1,0 +1,10 @@
+# -*- coding: utf-8 -*-
+
+import logging
+
+from .__version__ import __version__
+
+logging.getLogger(__name__).addHandler(logging.NullHandler())
+
+__author__ = "Nicolas Arenas"
+__email__ = 'nicolas.arenas@gmail.com'
